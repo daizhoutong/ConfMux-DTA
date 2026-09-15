@@ -1,0 +1,28 @@
+{
+  "revision": {
+    "record_id": "22747289",
+    "doi": "10.5281/zenodo.22747289",
+    "filename": "ConfMux_revision_code_and_data.zip",
+    "sha256": "eea7baf9fad716426a82d9650cf61f8215e42b53294d87cd90c3dc1560b7cfe9",
+    "bytes": 1019502707,
+    "description": "Published corrected server-built revision ZIP. All 185 manifest-listed members match the previously verified release. The filename was shortened for deposit."
+  },
+  "bindingdb": {
+    "record_id": "19903083",
+    "doi": "10.5281/zenodo.19903083",
+    "filename": "confmux_dta_bindingdb_agg.csv",
+    "description": "Canonical processed BindingDB training data; not needed for saved-result verification."
+  },
+  "davis": {
+    "record_id": "19904695",
+    "doi": "10.5281/zenodo.19904695",
+    "filename": "DAVIS.csv",
+    "description": "DAVIS input data for a new external inference run."
+  },
+  "model": {
+    "record_id": "20153878",
+    "doi": "10.5281/zenodo.20153878",
+    "filename": "predict_bundle.zip",
+    "description": "Previously deposited prediction bundle; not replaced by the revision."
+  }
+}
