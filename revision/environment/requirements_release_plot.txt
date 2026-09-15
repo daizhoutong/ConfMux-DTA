@@ -1,0 +1,2 @@
+# Only for rebuilding the corrected PDF. Numeric verification uses stdlib only.
+reportlab==4.4.9

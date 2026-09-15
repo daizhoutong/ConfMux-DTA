@@ -1,0 +1,11 @@
+lightgbm==4.7.0
+numpy==2.4.6
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.9.0
+tokenizers==0.23.1
+rdkit==2026.03.5
+matplotlib==3.11.1
+tqdm==4.70.0
+joblib==1.5.3
+psutil==7.2.2

@@ -1,0 +1,197 @@
+{
+  "archive_doi": "10.5281/zenodo.22747289",
+  "archive_filename": "ConfMux_revision_code_and_data.zip",
+  "scope": "Exact copies of code, environment records and command/map files from the corrected 20260914 archive; excludes datasets, results, models, private logs and Python caches. The GitHub README and data acquisition helper are new companion documentation/tools.",
+  "files": [
+    {
+      "path": "code/confmux_bpe_ridge_ablation.py",
+      "sha256": "f4883f76ace84abdc09c7c9a61ef36d3a56d78099519ea04f80ff3dd08598b54",
+      "bytes": 6146
+    },
+    {
+      "path": "code/confmux_dta_train_predict_leakage_controlled.py",
+      "sha256": "4bcf10a7a2b28782015597351af350ea70faa49de149ea4fb06ab7a597491e84",
+      "bytes": 159749
+    },
+    {
+      "path": "code/confmux_dta_train_predict_scale_controlled.py",
+      "sha256": "dab1fad1301fa9caea264032259ebc5b253815d7bc0bf0ca27b4f2970ec3193a",
+      "bytes": 170821
+    },
+    {
+      "path": "code/confmux_major_design_ablation.py",
+      "sha256": "1a5952be29760e7c3c8fa0fa72cc71ebd7cbfab6aee94fe7d070db5d4aaeca69",
+      "bytes": 11789
+    },
+    {
+      "path": "code/confmux_sigma_head_only.py",
+      "sha256": "e929b65cd5a4b3c8608c0a1c75f4bf3ab9127710cc1b4c3a3756adb27b889be5",
+      "bytes": 11680
+    },
+    {
+      "path": "code/confmux_temporal_prepare_and_run.py",
+      "sha256": "06a83dccbe0f14e7df34a1077750e64b444b5b98bc880acc97e2440ddfc6339a",
+      "bytes": 22129
+    },
+    {
+      "path": "code/confmux_temporal_shift_audit.py",
+      "sha256": "46e13a669c2c1bfa2bde6b5fb95ff331eb6c3e61b616d23c67b6c64818bd2f50",
+      "bytes": 54011
+    },
+    {
+      "path": "code/confmux_uncertainty_evaluation.py",
+      "sha256": "6d6628c42a9e78db564ae6a9fc8fcfa375fa202186b5737d2204625e81ce315a",
+      "bytes": 27873
+    },
+    {
+      "path": "code/deepdta_full_controlled.py",
+      "sha256": "b1242046cb0f75073fe4803fda4c28bb03865ec07797bfe7dc3d3a5257d55d64",
+      "bytes": 41109
+    },
+    {
+      "path": "code/deepdtagen_compat/sitecustomize.py",
+      "sha256": "cb6086376172d6e308eb955ef4f2138eaaa51e4a9c5944dab0bef71c858ff1a9",
+      "bytes": 2031
+    },
+    {
+      "path": "code/deepdtagen_speed_benchmark.py",
+      "sha256": "22817ac15601533f99843883ba776d10ea460fd634f1d437a107b7f09621f908",
+      "bytes": 22905
+    },
+    {
+      "path": "code/plot_release_davis.py",
+      "sha256": "87ba66f546e3f48d497c7a19f2d0861e0acc6ac206cfcba5a06688755babef19",
+      "bytes": 3477
+    },
+    {
+      "path": "code/rebuild_release_outputs.py",
+      "sha256": "6133ecb88fc6ca2a4b3b095d46dc9c4b9db1f7309623b97127f63d05fae63f2e",
+      "bytes": 8925
+    },
+    {
+      "path": "code/release_metrics.py",
+      "sha256": "429be1f93c1d8bb4f2238445b3d8790d194d545f088a0739f2470f85d0cb8717",
+      "bytes": 2597
+    },
+    {
+      "path": "code/run_confmux_temporal_s8_local.sh",
+      "sha256": "debb4467a9cc111238c1153f0913c280e5b3a5e09ff480ace19099edb62e157d",
+      "bytes": 769
+    },
+    {
+      "path": "code/run_release.py",
+      "sha256": "565844192bf0524852ede838f58af3af8b38741f74dec9f92afaabece8fe7acc",
+      "bytes": 12024
+    },
+    {
+      "path": "code/seal_release.py",
+      "sha256": "d45054fd5eeda86a097ce916265949f4b488abdcd3c2ad2893d0e85af6e78cb4",
+      "bytes": 1545
+    },
+    {
+      "path": "code/submit_deepdta_full_controlled.sbatch",
+      "sha256": "d150f3d57221917afea81fa31a75e1be571d9b3d012d8e993ac27af6f220124a",
+      "bytes": 1350
+    },
+    {
+      "path": "code/submit_deepdtagen_speed_benchmark.sbatch",
+      "sha256": "635433a295d9346485ac0fbfd6ed712e92c27d7af2f27b4f255432aac3118dd4",
+      "bytes": 1643
+    },
+    {
+      "path": "code/summarize_scale_and_deepdta.py",
+      "sha256": "82a4d86ec19b02072c7527cf1498a47a2a34e7dabc4713b41c430c907720abd1",
+      "bytes": 10919
+    },
+    {
+      "path": "code/verify_release.py",
+      "sha256": "6095bc7ac8b61bcc2864a33e268c981c829874254e73f99eb76eaaefae4f991b",
+      "bytes": 16424
+    },
+    {
+      "path": "environment/ENVIRONMENTS.md",
+      "sha256": "f40292807f529f06acb8332cae66cb7343937ac752c700846b95c0b33687af9c",
+      "bytes": 2317
+    },
+    {
+      "path": "environment/requirements_confmux_revision.txt",
+      "sha256": "5a6eecf8f43137702c33b66d473bba4eb0bda908a4334234ac7424b013be42ab",
+      "bytes": 173
+    },
+    {
+      "path": "environment/requirements_deepdta.txt",
+      "sha256": "04e169805afbb0b72646a0395e6dee5c56ee3c86e088620458ca7e5c6e014885",
+      "bytes": 186
+    },
+    {
+      "path": "environment/requirements_deepdtagen_optional.txt",
+      "sha256": "27e7c02eb147e95ec0da28bcad1d9c3bbef477ead737b5b73023bc32b72c69c1",
+      "bytes": 107
+    },
+    {
+      "path": "environment/requirements_release_plot.txt",
+      "sha256": "0e9d6d712bb6a9e966b329b94a54217809080900fb820e725602893a85d97e07",
+      "bytes": 97
+    },
+    {
+      "path": "environment/requirements_temporal_audit.txt",
+      "sha256": "a5099211fa845b03c769bb921cee700e4a48353339ba8ca8f11633cd9cfdc1a4",
+      "bytes": 231
+    },
+    {
+      "path": "historical_reproducibility/fig5/code/posthoc_best_model_full_plots_with_CI_R2m.py",
+      "sha256": "aa44b2c7686f9dcc247793b90371b3c2cb666d06fbe2d63194124c6080f102eb",
+      "bytes": 31164
+    },
+    {
+      "path": "historical_reproducibility/s8_historical_inputs/code/confmux_temporal_shift_audit.py",
+      "sha256": "46e13a669c2c1bfa2bde6b5fb95ff331eb6c3e61b616d23c67b6c64818bd2f50",
+      "bytes": 54011
+    },
+    {
+      "path": "historical_reproducibility/supp_table_s4/code/external_cross_dataset_validation_newbdb_enhanced.py",
+      "sha256": "b1b8556d89fcd03505f446d0aaed22a3822492c8ad517f7c93bb702114e95e97",
+      "bytes": 53327
+    },
+    {
+      "path": "historical_reproducibility/supp_table_s4/code/pick_candidates_from_bdb_pred.py",
+      "sha256": "094a45aa8279969fe2987246de860c4b882b97d6606af61b84e03d95e8941349",
+      "bytes": 7770
+    },
+    {
+      "path": "historical_reproducibility/suppfig_s2/code/evaluation_plots_scatter4metrics_cumcsv.py",
+      "sha256": "37296a1f1e215b8db8d115e3adff554a5b3f907ff9f0480f42f98539e2f772f6",
+      "bytes": 50523
+    },
+    {
+      "path": "historical_reproducibility/suppfig_s2/code/plot_suppfig_s2_final.py",
+      "sha256": "39f15b2a8d7bb0ec435d52b1f3782411279d34196b75e69ffe1f9d03dabf34be",
+      "bytes": 2455
+    },
+    {
+      "path": "RUN_COMMANDS.md",
+      "sha256": "8e44c615683149d735517710f15bbf2887861bba2cad30f9a6448e7300913492",
+      "bytes": 8742
+    },
+    {
+      "path": "PATH_CONFIG.example.sh",
+      "sha256": "08e166015edf929696b7cc30673f45c4057fb2d79f2d7fced0cfbff59d7a7284",
+      "bytes": 1345
+    },
+    {
+      "path": "reproducibility_map.tsv",
+      "sha256": "3fe8294fb6099109aa74009b58fca7b34d422f78a99d726ebadb43f60510d8ee",
+      "bytes": 5407
+    },
+    {
+      "path": "RELEASE_ID.txt",
+      "sha256": "d5d6ada6a7d3c283b5020b42bf3aaf6ec005a792a63f56c1daf2ee468546de03",
+      "bytes": 198
+    },
+    {
+      "path": "MANUSCRIPT_SYNC.md",
+      "sha256": "21a7e3fa165f5bcde805addfe7cc4c264437a7d68071e505b774e7f3ea1d7d5a",
+      "bytes": 3598
+    }
+  ]
+}

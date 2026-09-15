@@ -1,0 +1,4 @@
+# Candidate reconstruction, not a recovered complete historical freeze.
+# See ENVIRONMENTS.md; torch 2.7.1 was recorded with CUDA 12.6.
+-r requirements_confmux_revision.txt
+torch==2.7.1
